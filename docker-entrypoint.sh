@@ -15,7 +15,7 @@ if [ "$1" = 'mysqld_safe' ]; then
 		else
         	echo "Setting root password..."
 
-        	mysqld_safe --skip-networking &
+        	mysqld_safe &
 			pid="$!"
 			
 			mysql=( mysql --protocol=socket -uroot )
