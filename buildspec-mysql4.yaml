@@ -9,7 +9,7 @@ phases:
     commands:
       - echo "head_ref is $CODEBUILD_WEBHOOK_HEAD_REF"
       - /bin/bash build_tag_push.sh
-      - echo "Party time: mysql4 is ready."
+      - echo "Party time. Mysql4 is ready."
   post_build:
     commands:
       - echo "Finished build on `date`."
