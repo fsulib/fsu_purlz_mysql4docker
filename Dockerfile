@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM 840783682283.dkr.ecr.us-east-1.amazonaws.com/ubuntu/legacy:12.04
 MAINTAINER Steve Mayne <steve.mayne@gmail.com>
 
 RUN apt-get update && apt-get install -q -y \
